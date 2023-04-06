@@ -29,7 +29,7 @@ public class SecurityConfiguration {
         .csrf()
         .disable()
         .authorizeHttpRequests()
-        .requestMatchers("/api/v1/auth/**","/index.html","/index.html/**","/odontologo/buscarTodos","/paciente/buscarTodos","/turno/buscarTodos")
+        .requestMatchers("/api/v1/auth/**","/public/**","/style/**","/js/**","/index.html","/odontologos.html","/pacientes.html","/registrarme.html","/login.html","/studentAlta.html","/studentsList.html","/odontologo/buscarTodos","/paciente/buscarTodos","/turno/buscarTodos")
           .permitAll()
         .anyRequest()
           .authenticated()

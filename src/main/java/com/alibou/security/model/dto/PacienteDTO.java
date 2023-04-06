@@ -18,6 +18,8 @@ public class PacienteDTO {
     private String apellido;
     private String dni;
     private Date fechaAlta;
+    private boolean masculino;
+
 
     private String fotoPerfilUrl;
 

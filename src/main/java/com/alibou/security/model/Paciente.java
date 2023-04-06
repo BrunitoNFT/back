@@ -33,6 +33,7 @@ public class Paciente {
 
     private String fotoPerfilUrl;
 
+    private boolean masculino;
 
     @OneToMany(mappedBy = "paciente")
     @JsonIgnore
